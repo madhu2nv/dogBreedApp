@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+  }
+  
+  .tableClass {
+    margin: 10px 10px 10px 10px;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .headeColor {
+    background-color: rgb(227, 230, 230) !important;
+  }
+  .mat-dialog-actions {
+    justify-content: flex-end !important;
+  }

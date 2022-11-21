@@ -1,0 +1,62 @@
+<mat-card class="example-card">
+    <mat-card-header style="background:#b09cb9">
+      <mat-card-title>Details</mat-card-title>
+    <hr>
+    </mat-card-header><br>
+    <mat-card-content>
+      <div>
+        <div class="row">
+          <img mat-card-image [src]="data.Image" alt="" style="width:440px;height:320px">
+          <div style="display:flex">
+            <mat-label>Name : </mat-label>
+            <mat-card-subtitle>{{data.name}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Life Span : </mat-label>
+            <mat-card-subtitle>{{data.life_span}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Temperament: </mat-label>
+            <mat-card-subtitle>{{data.temperament}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Weight : </mat-label>
+            <mat-card-subtitle>{{data.weight}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Height : </mat-label>
+            <mat-card-subtitle>{{data.height}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Bred For : </mat-label>
+            <mat-card-subtitle>{{data.bred_for}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Breed Group : </mat-label>
+            <mat-card-subtitle>{{data.breed_group}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Country Code : </mat-label>
+            <mat-card-subtitle>{{data.country_code}}</mat-card-subtitle>
+          </div>
+  
+          <div style="display:flex">
+            <mat-label>Origin : </mat-label>
+            <mat-card-subtitle>{{data.origin}}</mat-card-subtitle>
+          </div>
+  
+          <!-- </div> -->
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="accent" (click)="onNoClick()">Close</button>
+    </mat-card-actions>
+  </mat-card>
